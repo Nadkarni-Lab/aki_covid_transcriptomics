@@ -1,6 +1,8 @@
 #module load R/4.0.3 #very important that you load this R version, dream will not work with the regular version that auto loads on minerva
 #R
-
+#############
+### final code to run the full analysis from the metadata to the cell type deconvolution to the differential gene expression. Every time the analysis is run, it will create a new folder with all analysis results within the foler. 
+##############
 rm(list=ls())
 options(stringsAsFactors=F)
 ##################################################
